@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+:root {
+  --color-primary: #0c3059;
+  --color-dark: #1a1a1a;
+  --text-font: "Roboto", sans-serif;
+}
+.text-primary {
+  color: var(--color-primary);
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace, "Roboto", sans-serif, "Gochi Hand", cursive;
+}
+.gochi {
+  font-family: "Gochi Hand", cursive;
+}
+.font-rob {
+  font-family: var(--text-font);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
